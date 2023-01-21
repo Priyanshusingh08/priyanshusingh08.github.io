@@ -16,7 +16,7 @@
 
 <style>
   .glow-button {
-                     --box-shadow-color: gray;
+                     --box-shadow-color: red;
                      box-shadow: 0 0 30px var(--box-shadow-color);
                   }
 </style>
@@ -27,10 +27,12 @@
 
     <!-- PAGE STUFF -->
 <div class="rela-block page">
-    <div class="rela-block top-bar">
+    <div class="rela-block top-bar" style="background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(70,34,70,1) 50%, rgba(159,35,35,1) 100%);">
         <div class="caps name"><div class="abs-center">Priyanhsu singh</div></div>
     </div>
-    <div class="side-bar" >
+    <div class="side-bar" style="background: rgb(238,174,174);
+    background: radial-gradient(circle, rgba(238,174,174,1) 0%, rgba(159,148,233,1) 100%);">
         <div class="mugshot ">
             <img  
             class="rounded-circle img-fluid px-2 pt-2 mb-2"
@@ -145,10 +147,12 @@
     <div class="rela-block content-container">
         <h2 class="rela-block caps title"> Front-End Developer </h2>
         <div class="rela-block separator"></div>
-        <div class="rela-block caps greyed">Career Objectiv</div>
+        <div class="rela-block caps greyed text-white" style="background: rgb(0,0,0);
+        background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(70,34,70,1) 50%, rgba(159,35,35,1) 100%);">Career Objectiv</div>
         <p class="long-margin">I am seeking a challenging position in a reputed organization where I can learn new skills, expand
             my knowledge, and leverage my learning. </p>
-        <div class="rela-block caps greyed">Projects</div>
+        <div class="rela-block caps greyed text-white" style="background: rgb(0,0,0);
+        background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(70,34,70,1) 50%, rgba(159,35,35,1) 100%);">Projects</div>
 
         <h3>AutoBlogger</h3>
         <p class="light">Reactjs(MERN)</p>
@@ -169,7 +173,8 @@
 
 
 
-            <div class="rela-block caps greyed">Internship</div>
+            <div class="rela-block caps greyed " style="background: rgb(238,174,174);
+            background: radial-gradient(circle, rgba(238,174,174,1) 0%, rgba(159,148,233,1) 100%);">Internship</div>
 
         <h3>Internship</h3>
         <p class="light">Full Stack Web Developer (MERN)
@@ -191,7 +196,8 @@
           
        
         </p>
-        <div class="rela-block caps greyed">Certificates</div>
+        <div class="rela-block caps greyed" style="background: rgb(238,174,174);
+        background: radial-gradient(circle, rgba(238,174,174,1) 0%, rgba(159,148,233,1) 100%);">Certificates</div>
         
         <div class="container">
           <div class="row">
@@ -238,7 +244,7 @@
           </div>
         </div>
 
-        <button class="btn btn-danger d-flex float-left" onclick="window.print()">Print Resume</button>
+        <button class="glow-button btn btn btn-danger  d-flex float-left text-white" onclick="window.print()">Print Resume</button>
 
         
         
